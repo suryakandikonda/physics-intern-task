@@ -1,4 +1,8 @@
+html {
+  height: 100%;
+}
 body {
+  height: 100%;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +14,77 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.columnn {
+  float: left;
+}
+
+.leftt {
+  height: 100%;
+  width: 25%;
+  background-color: #757575;
+}
+
+.rightt {
+  width: 75%;
+}
+
+.roww:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.sideBarActive {
+  color: aliceblue;
+  background-color: #0097A7;
+}
+
+.sideBarNavLink {
+  color: white;
+  list-style-type: none;
+  list-style: none;
+}
+
+.sideBarNavLink:hover {
+  background-color: #0097A7;
+}
+
+.topChangeContent {
+  background-color: #0097A7;
+  height: 500px;
+}
+
+.bottomFixContent {
+  float: left;
+  display: table;
+  clear: both;
+}
+
+.boxOne {
+  border: 2px black solid;
+  border-radius: 10px;
+ width: 40%;
+ height: 100px;
+}
+
+.boxOne h3 {
+  margin: 20px;
+}
+
+.boxTwo {
+  border: 2px black solid;
+  border-radius: 10px;
+ width: 50%;
+ height: 100px;
+}
+
+.boxTwo h3 {
+  margin: 20px;
+}
+
+.HomeBoxContent {
+  background-color: white;
+  border-radius: 20px;
 }
