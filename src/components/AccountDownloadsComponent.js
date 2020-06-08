@@ -16,7 +16,7 @@ class AccountDownloadsComponent extends Component {
                         <Breadcrumb>
                 <Breadcrumb.Section ><Link to='/home'>Home</Link></Breadcrumb.Section>
                 <Breadcrumb.Divider />
-                <Breadcrumb.Section active>Sessions</Breadcrumb.Section>
+                <Breadcrumb.Section active>Downloads</Breadcrumb.Section>
             </Breadcrumb>
 
                         <div>

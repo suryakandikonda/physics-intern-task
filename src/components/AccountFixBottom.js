@@ -14,10 +14,24 @@ class AccountFixBottom extends Component {
                         <div className="bottomFixContent">
                             <div className="boxOne">
                                 <h3>Topics Covered</h3>
+                                <hr></hr>
                             </div>
                             <div className="boxTwo">
-                                <h3>Topics Covered</h3>
+                                <h3>Recent Activities</h3>
+                                <hr></hr>
                             </div>
+                            
+                            
+                        </div>
+                        <br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+                        <div className="boxThree">
+                                <h3>Performance</h3>
+                                <hr></hr>
+                            </div>
+
+                        <div className="BottomSignature">
+                            <h4>EDUNOMICS</h4>
+                            <p>contact@edunomics.in</p>
                         </div>
                 
                 

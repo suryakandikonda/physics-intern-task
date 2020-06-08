@@ -1,39 +1,39 @@
 import React, { Component } from 'react';
-import { Navbar, NavbarBrand, Jumbotron, Nav, NavbarToggler, Collapse, NavItem, Button, Modal, ModalHeader, ModalBody, Form, FormGroup, Label, Input} from 'reactstrap';
 import { NavLink } from 'react-router-dom';
-import { Menu, Container, Header } from 'semantic-ui-react';
+import { Menu, Container, Header, Image, Modal, Button } from 'semantic-ui-react';
 import Banner from '../assets/images/banner.jpg';
 import SecondImage from '../assets/images/img2.jpg';
+import MyAccountMain from './MyAccountMain';
 
 class HeaderComponent extends Component {
     constructor(props) {
         super(props);
+
+       
     }
+
+    
+
 
     render() {
         return (
             <React.Fragment>
-                <Menu>
-                <Menu.Item
-                name='editorials'
-                
-                >
-                Editorials
-                </Menu.Item>
-        
-                <Menu.Item
-                name='reviews'
-                
-                >
-                Reviews
-                </Menu.Item>
-        
-                <Menu.Item
-                name='upcomingEvents'
-                
-                >
-                Upcoming Events
-                </Menu.Item>
+                <Menu size='tiny'>
+                    <Menu.Item name='Welcome to Edunomics' />
+                    <Menu.Menu position='right'>
+            
+                        <Menu.Item>
+                        <Modal trigger={<Button>Login</Button>}>
+                            <Modal.Header>Login</Modal.Header>
+                            <Modal.Content>
+                            
+                            <Modal.Description>
+                            
+                            </Modal.Description>
+                            </Modal.Content>
+                        </Modal>
+                        </Menu.Item>
+                    </Menu.Menu>
                 </Menu>
 
                 <img src={Banner} width="100%" height="100%"/>
